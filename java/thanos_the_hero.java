@@ -1,5 +1,5 @@
 
-public class Thanos {
+public class thanos_the_hero {
 
 	public static void main(String[] args) {
 		Kattio inScanner = new Kattio(System.in, System.out);

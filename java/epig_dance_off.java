@@ -1,6 +1,6 @@
 import java.io.IOException;
 
-public class Epig {
+public class epig_dance_off {
 
 	public static void main(String[] args) throws IOException {
 		Kattio inScanner = new Kattio(System.in, System.out);

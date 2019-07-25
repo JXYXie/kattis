@@ -1,5 +1,5 @@
 
-public class Quadrant {
+public class quadrant_selection {
 
 	public static void main(String[] args) {
 		Kattio inScanner = new Kattio(System.in, System.out);

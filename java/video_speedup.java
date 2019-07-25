@@ -1,5 +1,5 @@
 
-public class VidSpeedup {
+public class video_speedup {
 
 	public static void main(String[] args) {
 		Kattio inScanner = new Kattio(System.in, System.out);
