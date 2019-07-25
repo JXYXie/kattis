@@ -1,16 +1,14 @@
 nums = []
 
-for line in STDIN.readlines do
+STDIN.readlines.each do |line|
   nums.append(line.strip.split)
 end
 
 nums = nums.flatten
 cold = 0
 i = nums[0].to_i
-until i < 0
-  if (nums[i-1].to_i < 0)
-    cold += 1
-  end
+until i.negative?
+  cold += 1 if nums[i - 1].to_i.negative?
   i -= 1
 end
 puts cold

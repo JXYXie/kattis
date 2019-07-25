@@ -1,2 +1,2 @@
 line = STDIN.readlines.first
-puts line.split()[1]
+puts line.split [1]
